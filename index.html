@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="side-bar">
+          <li onclick="hideSidebar()" class="cross">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 -960 960 960"
+                width="26"
+                
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+              <a href="#home" >Home</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+             <a href="#friends">Friends</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+          <!--             -->
+        </ul>
+        <ul>
+          <li>
+            <a href="#home" class="logo">Amanda  <span>Jeon</spam></a>
+          </li>
+          <li class="hideonMobile">
+                     <a href="#home" class="active">Home</a>
+          </li>
+          <li class="hideonMobile">
+          <a href="#education">Education</a>
+          </li>
+          <li class="hideonMobile">
+          <a href="#services">Services</a>
+          </li>
+          <li class="hideonMobile">
+               <a href="#friends">Friends</a>
+          </li>
+          <li class="hideonMobile">
+                <a href="#contact">Contact</a>
+          </li>
+         
+          <li onclick="showSidebar()" class="list">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 -960 960 960"
+                width="26"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div class="nav-container">
+
+      <div class="logo">
+        <a href="#home">Amanda <span>Jeon</spam></a>
+      </div>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="nav-group" id="nav">
+        
+
+          <a href="#home" class="active">Home</a>
+          <a href="#education">Education</a>
+          <a href="#services">Services</a>
+          <a href="#friends">Friends</a>
+          <a href="#friends">Friends</a>
+
+       
+      </nav>
+    </div> -->
+    </header>
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="images.png" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi,It's <span>Amanda</span></h1>
+        <h3 class="animated-text">I'm a <span></span></h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+          error officiis magnam quibusdam. Earum nobis architecto quis enim amet
+          ex, iure sequi beatae necessitatibus ducimus nisi sunt veritatis quo
+          ab nostrum in velit adipisci voluptatibus ipsam neque suscipit aliquid
+          perferendis? Rem deleniti et nam, repellendus consequatur ut magni
+          sunt facere.
+        </p>
+        <div class="social-icons">
+          <a href=""><i class="bx bxl-github"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+        </div>
+        <div class="btn-gp">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <main>
+      <!-- education section start -->
+      <section class="timeline" id="education">
+        <div class="timeline-container left-container">
+          <div class="text-box">
+            <h1>2018-2019</h1>
+            <h2>High school</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              nesciunt eveniet laboriosam recusandae sapiente! Amet ipsum
+              exercitationem eaque. Ratione neque expedita ipsum deleniti quasi
+              facere suscipit provident minus aliquam placeat.
+            </p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="timeline-container right-container">
+          <div class="text-box">
+            <h1>2020-2021</h1>
+            <h2>University</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              nesciunt eveniet laboriosam recusandae sapiente! Amet ipsum
+              exercitationem eaque. Ratione neque expedita ipsum deleniti quasi
+              facere suscipit provident minus aliquam placeat.
+            </p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+        <div class="timeline-container left-container">
+          <div class="text-box">
+            <h1>2021-2023</h1>
+            <h2>KBTC NCC3,NCC4</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              nesciunt eveniet laboriosam recusandae sapiente! Amet ipsum
+              exercitationem eaque. Ratione neque expedita ipsum deleniti quasi
+              facere suscipit provident minus aliquam placeat.
+            </p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="timeline-container right-container">
+          <div class="text-box">
+            <h1>2024</h1>
+            <h2>KBTC NCC5</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              nesciunt eveniet laboriosam recusandae sapiente! Amet ipsum
+              exercitationem eaque. Ratione neque expedita ipsum deleniti quasi
+              facere suscipit provident minus aliquam placeat.
+            </p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+      </section>
+      <!-- education section end -->
+
+      <!-- service section start -->
+      <section class="Services" id="services">
+        <div class="service-container">
+          <div class="card">
+            <h1>UI Design</h1>
+            <p>
+              Crafting a visually appealing and user-friendly UI design for a
+              resume involves careful consideration of layout, typography,
+              colors, and whitespace. It's crucial to maintain a clean and
+              organized structure that allows the reader to navigate seamlessly
+              through your qualifications and achievements.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Frontend Developement</h1>
+            <p>
+              Frontend development involves creating the visual and interactive
+              aspects of websites or web applications using technologies like
+              HTML, CSS, and JavaScript. Frontend developers strive to ensure a
+              user-friendly interface and seamless user experience and browsers.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Backend Developement</h1>
+            <p>
+              Backend development involves creating and maintaining server-side
+              functionalities, such as databases, APIs, and server logic, to
+              support the functionality of web applications. It focuses on
+              handling data storage, user authentication, and optimizing
+              performance for scalability.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Testing</h1>
+            <p>
+              Testing web applications is crucial for identifying and fixing
+              issues before deployment, ensuring a smooth and error-free user
+              experience. Various testing methods, such as manual testing and
+              automated testing, are employed to verify functionality,
+              performance, and security aspects of the web application.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- service section end -->
+      <!-- friends section start -->
+      <section class="friends" id="friends">
+        <div class="friends-container">
+          <div class="f-card">
+            <img src="images.png" alt="" />
+            <h1>Name1</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              nobis repudiandae obcaecati? Tempore repellat, perferendis aperiam
+              adipisci placeat tempora quasi voluptatibus quod consequatur
+              itaque iusto veritatis accusamus eligendi velit animi!
+            </p>
+          </div>
+          <div class="f-card">
+            <img src="images.png" alt="" />
+            <h1>Name2</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              nobis repudiandae obcaecati? Tempore repellat, perferendis aperiam
+              adipisci placeat tempora quasi voluptatibus quod consequatur
+              itaque iusto veritatis accusamus eligendi velit animi!
+            </p>
+          </div>
+          <div class="f-card">
+            <img src="images.png" alt="" />
+            <h1>Name3</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              nobis repudiandae obcaecati? Tempore repellat, perferendis aperiam
+              adipisci placeat tempora quasi voluptatibus quod consequatur
+              itaque iusto veritatis accusamus eligendi velit animi!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- friends section end -->
+      <!-- contact section start -->
+      <section class="contact" id="contact">
+        <h1>Contact <span class="main-col">Me</span></h1>
+        <form class="contact-from">
+          <div class="left-input">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Phone" />
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="right-input">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="15"
+              placeholder="Your message"
+            ></textarea>
+            <button class="input-btn">Send Message</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact section end -->
+    </main>
+    <footer>
+      <div class="social-icons">
+        <a href=""><i class="bx bxl-github"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram"></i></a>
+        <a href=""><i class="bx bxl-facebook"></i></a>
+      </div>
+      <div class="footer-links">
+        <a href="#home" class="active">FAQ</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#friends">Friends</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
